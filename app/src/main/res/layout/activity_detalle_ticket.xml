@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detalle_Ticket"
+    tools:layout_editor_absoluteX="-181dp"
+    tools:layout_editor_absoluteY="-45dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informacion del Ticket"
+        android:textSize="20sp"
+        android:textStyle="bold"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+=======
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="39dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:textStyle="bold"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+=======
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="189dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="156dp"
+        android:text="Titulo:"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtTituloDet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+=======
+        android:text="Titulo:"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="103dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/txtTituloDet"
+        android:layout_width="106dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        android:textAlignment="center"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205" />
+=======
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="122dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/txtDescripcionDet"
+        android:layout_width="106dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        android:textAlignment="center"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
+=======
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="208dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autor del Ticket"
+        android:textStyle="bold"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+=======
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="450dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/txtAutorDet"
+        android:layout_width="106dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        android:textAlignment="center"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+=======
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="469dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email del Autor:"
+        android:textStyle="bold"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748" />
+=======
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="548dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/txtEmailAutorDet"
+        android:layout_width="106dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        android:textAlignment="center"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797" />
+=======
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="567dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/txtUUIDetalle"
+        android:layout_width="106dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        android:textAlignment="center"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
+=======
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="123dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="617dp"
+        android:text="UUID:"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+=======
+        android:text="UUID:"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="95dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Finalizacion:"
+        android:textStyle="bold"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+=======
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="356dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero de ticket:"
+        android:textStyle="bold"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265" />
+=======
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="181dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de inicio:"
+        android:textStyle="bold"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
+=======
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="275dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/txtFechaInicioDet"
+        android:layout_width="106dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        android:textAlignment="center"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439" />
+=======
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="291dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado:"
+        android:textStyle="bold"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+=======
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="638dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/txtEstadoDet"
+        android:layout_width="106dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        android:textAlignment="center"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+=======
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="657dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/txtNumTicketDet"
+        android:layout_width="106dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        android:textAlignment="center"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+=======
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="208dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/txtFechaFinalDet"
+        android:layout_width="106dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        android:textAlignment="center"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
+=======
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="375dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+</androidx.constraintlayout.widget.ConstraintLayout>

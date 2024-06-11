@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tickets">
+
+    <EditText
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="Titulo"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txtEmailAutor"
+        app:layout_constraintEnd_toStartOf="@+id/btnTicket"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAutor" />
+=======
+        android:ems="10"
+        android:hint="Titulo"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="533dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <EditText
+        android:id="@+id/txtNumTicket"
+        android:layout_width="105dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Numero "
+        android:inputType="text"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+=======
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="415dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <EditText
+        android:id="@+id/txtEstado"
+        android:layout_width="108dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Estado"
+        android:inputType="text"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+=======
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="415dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="207dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="Breve Descripcion"
+        android:inputType="text"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+=======
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="664dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <EditText
+        android:id="@+id/txtFechaInicio"
+        android:layout_width="106dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Fecha inicial"
+        android:inputType="text"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
+=======
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="414dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <EditText
+        android:id="@+id/txtAutor"
+        android:layout_width="208dp"
+        android:layout_height="40dp"
+<<<<<<< HEAD
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:hint="Autor del Ticket"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txtTitulo"
+        app:layout_constraintEnd_toStartOf="@+id/txtFechaFinal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNumTicket" />
+=======
+        android:ems="10"
+        android:hint="Autor del Ticket"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="474dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <EditText
+        android:id="@+id/txtFechaFinal"
+        android:layout_width="107dp"
+        android:layout_height="40dp"
+<<<<<<< HEAD
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="45dp"
+        android:ems="10"
+        android:hint="Fecha Final"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btnTicket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtAutor"
+        app:layout_constraintTop_toBottomOf="@+id/txtFechaInicio" />
+=======
+        android:ems="10"
+        android:hint="Fecha Final"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="493dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <Button
+        android:id="@+id/btnTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generar Ticket"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+=======
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="578dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <EditText
+        android:id="@+id/txtEmailAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Email del Autor"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txtDescripcion"
+        app:layout_constraintEnd_toStartOf="@+id/btnTicket"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtDescripcion"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+=======
+        android:ems="10"
+        android:hint="Email del Autor"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="602dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvTicket"
+        android:layout_width="411dp"
+        android:layout_height="228dp"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274" />
+=======
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="110dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="128dp"
+        android:layout_height="62dp"
+        android:text="Crear Tickets"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+=======
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="16dp" />
+>>>>>>> 30f51601094f7784b1f228ccb4fb9d6badcad045
+</androidx.constraintlayout.widget.ConstraintLayout>
